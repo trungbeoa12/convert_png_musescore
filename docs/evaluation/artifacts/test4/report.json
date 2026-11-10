@@ -1,0 +1,190 @@
+{
+  "source": "${PROJECT_ROOT}/output/test4_20261110_154214_0c04e6/original.png",
+  "results": [
+    {
+      "mscz": "${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/original.mscz",
+      "musicxml": "${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/omr/input.mxl",
+      "raw_musicxml": "${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/original_audiveris.musicxml",
+      "parts": 1,
+      "measures": 24,
+      "pitched_notes_including_grace": 51,
+      "warnings": [
+        "Bè P1, ô 1: độ dài 3/2 phách đen, dự kiến 2 (có thể là ô lấy đà).",
+        "Bè P1, ô 5: độ dài 7/4 phách đen, dự kiến 2 (có thể là ô lấy đà).",
+        "Bè P1, ô 7: độ dài 3/2 phách đen, dự kiến 2 (có thể là ô lấy đà).",
+        "Bè P1, ô 9: độ dài 7/4 phách đen, dự kiến 2 (có thể là ô lấy đà).",
+        "Bè P1, ô 13: độ dài 7/4 phách đen, dự kiến 2 (có thể là ô lấy đà).",
+        "Bè P1, ô 15: độ dài 3/2 phách đen, dự kiến 2 (có thể là ô lấy đà).",
+        "Bè P1, ô 17: độ dài 7/4 phách đen, dự kiến 2 (có thể là ô lấy đà).",
+        "Bè P1, ô 19: độ dài 7/4 phách đen, dự kiến 2 (có thể là ô lấy đà).",
+        "Bè P1, ô 21: độ dài 7/4 phách đen, dự kiến 2 (có thể là ô lấy đà).",
+        "Bè P1, ô 23: độ dài 7/4 phách đen, dự kiến 2 (có thể là ô lấy đà)."
+      ],
+      "layout_normalized": false,
+      "import_source": "${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/omr/input.mxl",
+      "symbols": {
+        "parts": 1,
+        "measures": 24,
+        "notes": 51,
+        "rests": 8,
+        "dots": 0,
+        "grace": 0,
+        "accidentals": {
+          "flat": 1
+        },
+        "ties": {
+          "start": 3,
+          "stop": 3
+        },
+        "slurs": {
+          "start": 17,
+          "stop": 17
+        },
+        "voices": [
+          "1",
+          "2"
+        ],
+        "staves": [
+          "1"
+        ],
+        "contexts": [
+          {
+            "clefs": [
+              [
+                "1",
+                "G",
+                "2",
+                "0"
+              ]
+            ],
+            "key": "3",
+            "time": "2/4"
+          }
+        ]
+      },
+      "roundtrip": "${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/original_roundtrip.musicxml",
+      "export_comparison": {
+        "reference_events": 59,
+        "actual_events": 59,
+        "edit_distances": {
+          "pitch": 0,
+          "duration": 0,
+          "dots": 0,
+          "accidental": 0,
+          "grace": 0,
+          "ties": 2,
+          "slurs": 2,
+          "voice": 0,
+          "staff": 0,
+          "onset": 0,
+          "beams": 3,
+          "pitch_duration": 0
+        },
+        "structure_equal": true,
+        "annotations_equal": true,
+        "credits_equal": true,
+        "changed_event_regions": [],
+        "contexts_equal": true,
+        "reference_measures": 24,
+        "actual_measures": 24,
+        "note": "Independent feature edit distances; insertions/deletions also affect feature distances. Not calibrated accuracy."
+      },
+      "preview_images": [
+        "${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/original_preview-1.png",
+        "${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/original_preview-2.png"
+      ]
+    }
+  ],
+  "recognition_warnings": [
+    "INFO  [input]                StemScaler 143  | No stem peak found, computing defaults",
+    "INFO  [input]               StackRhythm 224  | S1 MeasureStack#1 no correct rhythm",
+    "INFO  [input]             MeasureRhythm 1044 | Measure{#11} No timeOffset for HeadChordInter#1621{(0.869/0.869) staff:2 slot#3 dur:1/4}",
+    "INFO  [input]               StackRhythm 224  | S2 MeasureStack#11 no correct rhythm",
+    "WARN  [input]        AbstractChordInter 1229 | HeadChordInter#1597{(0.944/0.944) staff:1 dur:1/8} Computing beam group times with first chord not set",
+    "INFO  [input]        AbstractChordInter 635  | Measure{-NOSTACK-} No timeOffset for HeadChordInter#1597{(0.944/0.944) staff:1 dur:1/8}"
+  ],
+  "preprocessing": {
+    "requested_profile": "deskew",
+    "source_size": [
+      1788,
+      954
+    ],
+    "source_mode": "RGBA",
+    "source_dpi": [
+      143.99259999999998,
+      143.99259999999998
+    ],
+    "enhance": true,
+    "paper_brightness_percentiles": [
+      185.0,
+      200.0,
+      211.0
+    ],
+    "uneven_or_dark_paper": true,
+    "warnings": [
+      "Nền tối/không đều: cần kiểm tra ký hiệu nhỏ. Cân bằng nền chưa được chứng minh luôn tốt hơn."
+    ],
+    "operations": [
+      "EXIF orientation",
+      "alpha composite on white",
+      "grayscale",
+      "legacy 2x bicubic",
+      "legacy contrast and 30px white margin",
+      "experimental global deskew (see measured angle)"
+    ],
+    "decision": "auto retains legacy pixels; geometry and lighting correction require explicit profiles; no accuracy ranking",
+    "deskew": {
+      "applied": true,
+      "angle_degrees": -0.5343492904238087,
+      "mad_degrees": 0.1292343682354486,
+      "segments": 75
+    },
+    "prepared_size": [
+      3636,
+      1968
+    ],
+    "prepared_sha256": "e3f9aa7c7548e61d9ed145daf1e52611dc3b2cdb1ee8382d4e3e212dd60bfa6f",
+    "encoding": "lossless PNG; 300 DPI is metadata, not measured source resolution",
+    "variants": {
+      "04_before_deskew.png": "8dd98a6c26365b65027a4670800309d494fcb650c167a21563623611c54b417a",
+      "02_background_estimate.png": "466629a4800f8b0dedbcf48171679711412ebabf608fee05ea2919536769455d",
+      "01_gray.png": "cd96f09cab07ffae2a815827e3ed8952ed90a250e8d013600bcd351f0ac99a6b"
+    }
+  },
+  "geometry": null,
+  "review_priority_count": 0,
+  "rhythm_review_regions": 2,
+  "provenance": {
+    "source_sha256": "565ed69429a482351f8752b0846ec5e7af15cd7e5b6a251af2c69d02091eae7e",
+    "engine_projects": [
+      {
+        "project": "${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/omr/input.omr",
+        "version": "5.11.0",
+        "build": "9e1e55cd2746037d059345881c53e6a6754bffbd",
+        "binary_sha256": {
+          "sheet#1/BINARY.png": "9bb72f84f6508f94196d2d3a28b566d4c7745a46db44867dff6352588a0d10aa"
+        }
+      }
+    ],
+    "selected_image_sha256": "e3f9aa7c7548e61d9ed145daf1e52611dc3b2cdb1ee8382d4e3e212dd60bfa6f",
+    "python": "3.13.13",
+    "platform": "macOS-13.7.8-x86_64-i386-64bit-Mach-O",
+    "packages": {
+      "Pillow": "12.2.0",
+      "numpy": "2.2.6",
+      "opencv-python-headless": "4.11.0.86"
+    },
+    "tessdata_prefix": "${PROJECT_ROOT}/tools/tessdata_legacy",
+    "adaptive_std_override": null,
+    "audiveris": "${PROJECT_ROOT}/tools/Audiveris.app/Contents/MacOS/Audiveris",
+    "musescore": "/Applications/MuseScore 4.app/Contents/MacOS/mscore",
+    "code_sha256": {
+      "converter.py": "f24b7a803fc14bb21633cbcc821d4438111db6f7168d24fb4cfe6d4a95f098cd",
+      "preprocessing.py": "1c451d00126818acb2f87185abac44259ec593a55623690551194da99a33b297",
+      "score_audit.py": "8cc57d0583025de154fa474cf619b289d8de452c5bd884984fcc360a048433d6"
+    }
+  },
+  "selected_image": "${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/input.png",
+  "verification": "No ground truth supplied to converter. Measure totals and engine grades are diagnostics, not accuracy.",
+  "notice": "Đã tạo bản chép tự động, CHƯA xác minh đúng nốt. Có thể sai cao độ, trường độ, dấu hóa, bè và dấu nối. Đủ phách không có nghĩa là đúng. Khung đỏ trong review_overlay là vị trí ưu tiên xem lại; điểm engine không phải phần trăm tin cậy."
+}

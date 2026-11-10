@@ -1,0 +1,5 @@
+onnxruntime (1.23.2)
+Available versions: 1.23.2, 1.23.1, 1.23.0, 1.22.1, 1.22.0, 1.21.1, 1.21.0, 1.20.1, 1.20.0
+
+[notice] A new release of pip is available: 26.0.1 -> 26.3
+[notice] To update, run: ${PROJECT_ROOT}/.venv/bin/python -m pip install --upgrade pip

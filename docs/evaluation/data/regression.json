@@ -1,0 +1,62 @@
+[
+  {
+    "name": "test2",
+    "before": "${PROJECT_ROOT}/evaluation/after/test2_20261110_152016_a37bde/omr/input.mxl",
+    "after": "${PROJECT_ROOT}/evaluation/investigation/regression/test2_20261110_162309_7b8327",
+    "comparison": {
+      "reference_events": 24,
+      "actual_events": 24,
+      "edit_distances": {
+        "pitch": 0,
+        "duration": 0,
+        "dots": 0,
+        "accidental": 0,
+        "grace": 0,
+        "ties": 0,
+        "slurs": 0,
+        "voice": 0,
+        "staff": 0,
+        "onset": 0,
+        "beams": 0,
+        "pitch_duration": 0
+      },
+      "structure_equal": true,
+      "annotations_equal": true,
+      "changed_event_regions": [],
+      "contexts_equal": true,
+      "reference_measures": 5,
+      "actual_measures": 5,
+      "note": "Independent feature edit distances; insertions/deletions also affect feature distances. Not calibrated accuracy."
+    }
+  },
+  {
+    "name": "test3",
+    "before": "${PROJECT_ROOT}/evaluation/after/test3_20261110_152150_a05f43/omr/input.mxl",
+    "after": "${PROJECT_ROOT}/evaluation/investigation/regression/test3_20261110_162332_a257e3",
+    "comparison": {
+      "reference_events": 130,
+      "actual_events": 130,
+      "edit_distances": {
+        "pitch": 0,
+        "duration": 0,
+        "dots": 0,
+        "accidental": 0,
+        "grace": 0,
+        "ties": 0,
+        "slurs": 0,
+        "voice": 0,
+        "staff": 0,
+        "onset": 0,
+        "beams": 0,
+        "pitch_duration": 0
+      },
+      "structure_equal": true,
+      "annotations_equal": true,
+      "changed_event_regions": [],
+      "contexts_equal": true,
+      "reference_measures": 14,
+      "actual_measures": 14,
+      "note": "Independent feature edit distances; insertions/deletions also affect feature distances. Not calibrated accuracy."
+    }
+  }
+]

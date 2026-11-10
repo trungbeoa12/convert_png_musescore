@@ -1,0 +1,129 @@
+
+COMMAND: ['${PROJECT_ROOT}/tools/Audiveris.app/Contents/MacOS/Audiveris', '-batch', '-transcribe', '-export', '-save', '-output', '${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/omr', '--', '${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/input.png']
+INFO  []                      Main 259  | Running in batch mode
+INFO  []                 Languages 138  | Installed OCR languages: eng
+INFO  []             AliasPatterns 146  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 194  | Submitting 1 task(s) in sequence:
+    Input "${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/input.png"
+INFO  [input]                      Book 560  | 1 sheet in ${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/input.png
+INFO  []                      Book 2565 | Stored /book.xml
+INFO  []                      Book 2525 | Book stored as ${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/omr/input.omr
+INFO  []                      Book 1929 | Book reaching PAGE on sheets:[#1]
+INFO  [input]            StepMonitoring 98   | LOAD
+INFO  [input]                 SheetStub 1278 | Loaded image #1 3636x1968 from ${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/input.png
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                DataHolder 348  | Stored /sheet#1/GRAY.png
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | BINARY
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                DataHolder 256  | Removed /sheet#1/GRAY.png
+INFO  [input]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | SCALE
+INFO  [input]              ScaleBuilder 254  | Beam  guessed height: 21 -- 0.25 of [17..34] range
+INFO  [input]              ScaleBuilder 271  | Beam measured height: 20 -- 0.18 of [17..34] range at 66% of needed quorum
+INFO  [input]              ScaleBuilder 401  | Normalized black jitter: 10.53 %
+INFO  [input]                 ScaleStep 65   | Scale{ interline(36,38,41) line(9,11,13) beam(20)}
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | GRID
+INFO  [input]            LinesRetriever 1508 | Global slope: -0.00068
+INFO  [input]         ClustersRetriever 326  | Retrieved raw line clusters: 4 of sizes [5] with interline(36,38,41)
+INFO  [input]                 PeakGraph 310  | Systems: #1[1] #2[2] #3[3] #4[4]
+INFO  [input]             SystemManager 134  | Indentation detected for system #1
+INFO  [input]             SystemManager 800  | 1 part along 4 systems
+INFO  [input]                      Book 543  | Created scores: [{Score 1}]
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | HEADERS
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | STEM_SEEDS
+INFO  [input]                StemScaler 143  | No stem peak found, computing defaults
+INFO  [input]             StemSeedsStep 86   | stem(11 max:13)
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | BEAMS
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                DataHolder 348  | Stored /sheet#1/HEAD_SPOTS.png
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | LEDGERS
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | HEADS
+INFO  [input]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-1.4,R:0.9]}
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                DataHolder 256  | Removed /sheet#1/HEAD_SPOTS.png
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | STEMS
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | REDUCTION
+INFO  [input]             ReductionStep 105  | Stems free length median value: 124 pixels, 3.3 interlines
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | CUE_BEAMS
+INFO  [input]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | TEXTS
+Estimating resolution as 756
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | MEASURES
+INFO  [input]                      Page 307  | 24 raw measures: [6 in system#1, 6 in system#2, 6 in system#3, 6 in system#4]
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | CHORDS
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | CURVES
+INFO  [input]             CurvesBuilder 532  | Curve: SlurInfo{#4284[794,1741][841,1740] dist:3.01} Too many rookies: 63, giving up!
+INFO  [input]             CurvesBuilder 532  | Curve: SlurInfo{#7631[2321,798][2345,797] dist:4.55} Too many rookies: 50, giving up!
+INFO  [input]             CurvesBuilder 532  | Curve: SlurInfo{#9265[1487,1659][1508,1660] dist:1.11} Too many rookies: 55, giving up!
+INFO  [input]              SlursBuilder 240  | Slurs: 23
+INFO  [input]           SegmentsBuilder 155  | Segments: 3
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | SYMBOLS
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | LINKS
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | RHYTHMS
+INFO  [input]               StackRhythm 224  | S1 MeasureStack#1 no correct rhythm
+INFO  [input]             MeasureRhythm 1044 | Measure{#11} No timeOffset for HeadChordInter#1621{(0.869/0.869) staff:2 slot#3 dur:1/4}
+INFO  [input]               StackRhythm 224  | S2 MeasureStack#11 no correct rhythm
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | PAGE
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]                 SheetStub 1655 | Sheet disposed
+INFO  [input]                      Book 2050 | End of Stub#1
+INFO  [input]                      Book 2057 | End of Book{input}
+WARN  [input]        AbstractChordInter 1229 | HeadChordInter#1597{(0.944/0.944) staff:1 dur:1/8} Computing beam group times with first chord not set
+INFO  [input]        AbstractChordInter 635  | Measure{-NOSTACK-} No timeOffset for HeadChordInter#1597{(0.944/0.944) staff:1 dur:1/8}
+INFO  [input]                 SheetStub 1000 | Loaded /sheet#1/sheet#1.xml
+INFO  [input]           PartwiseBuilder 2707 | Exporting sheet(s): [#1]
+INFO  [input]             ScoreExporter 164  | Score input exported to ${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/omr/input.mxl
+INFO  [input]                     Score 181  | Closing {Score 1}
+
+COMMAND: ['/Applications/MuseScore 4.app/Contents/MacOS/mscore', '-o', '${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/original.mscz', '${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/omr/input.mxl']
+Detected locale "C" with character encoding "US-ASCII", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+
+COMMAND: ['/Applications/MuseScore 4.app/Contents/MacOS/mscore', '-o', '${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/original_roundtrip.musicxml', '${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/original.mscz']
+Detected locale "C" with character encoding "US-ASCII", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+
+COMMAND: ['/Applications/MuseScore 4.app/Contents/MacOS/mscore', '-r', '110', '-o', '${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/original_preview.png', '${PROJECT_ROOT}/evaluation/investigation/final/original_20261110_162502_13c355/original.mscz']
+Detected locale "C" with character encoding "US-ASCII", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.

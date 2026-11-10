@@ -1,0 +1,18 @@
+test_auto_preserves_legacy_pixels_for_clear_input (test_converter.ConverterTests.test_auto_preserves_legacy_pixels_for_clear_input) ... ok
+test_backup_for_second_voice_and_incomplete_measure (test_converter.ConverterTests.test_backup_for_second_voice_and_incomplete_measure) ... ok
+test_blank_recognition_is_not_success (test_converter.ConverterTests.test_blank_recognition_is_not_success) ... ok
+test_cancel_terminates_child (test_converter.ConverterTests.test_cancel_terminates_child) ... ok
+test_enough_beats_does_not_hide_pitch_error (test_converter.ConverterTests.test_enough_beats_does_not_hide_pitch_error) ... ok
+test_geometry_rejects_incomplete_staff (test_converter.ConverterTests.test_geometry_rejects_incomplete_staff) ... ok
+test_grace_does_not_add_time_and_chord_does_not_double_time (test_converter.ConverterTests.test_grace_does_not_add_time_and_chord_does_not_double_time) ... ok
+test_longer_chord_member_extends_measure (test_converter.ConverterTests.test_longer_chord_member_extends_measure) ... ok
+test_missing_time_is_not_reported_as_valid (test_converter.ConverterTests.test_missing_time_is_not_reported_as_valid) ... ok
+test_ocr_and_barline_change_are_reported (test_converter.ConverterTests.test_ocr_and_barline_change_are_reported) ... ok
+test_same_flat_notes_different_measures_are_reported (test_converter.ConverterTests.test_same_flat_notes_different_measures_are_reported) ... ok
+test_short_page_layout_fix_keeps_all_music (test_converter.ConverterTests.test_short_page_layout_fix_keeps_all_music) ... ok
+test_transparent_background_becomes_white (test_converter.ConverterTests.test_transparent_background_becomes_white) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.047s
+
+OK

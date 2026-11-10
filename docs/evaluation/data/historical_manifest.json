@@ -1,0 +1,72 @@
+[
+  {
+    "file": "cay_truc_xinh.png",
+    "category": "scan",
+    "category_basis": "visual inference; source provenance not confirmed",
+    "split": "development",
+    "sha256": "768652bb6c5ba03e1ba7d44a31f6b5a66893ee25927f6b13239f7308b4ad0d19",
+    "folder": "evaluation/baseline/cay_truc_xinh_20261110_150600_0f586f",
+    "status": "ok",
+    "seconds": 36.02
+  },
+  {
+    "file": "bai_hat_nga.png",
+    "category": "scan",
+    "category_basis": "visual inference; source provenance not confirmed",
+    "split": "development",
+    "sha256": "fa154e9f294d5be25323f5507effe8618e02babbcd10266ae2a4f7c96a8663f0",
+    "folder": "evaluation/baseline/bai_hat_nga_20261110_150636_e5a41e",
+    "status": "ok",
+    "seconds": 51.22
+  },
+  {
+    "file": "bai_hat_nga_2.png",
+    "category": "scan",
+    "category_basis": "visual inference; source provenance not confirmed",
+    "split": "related-validation",
+    "sha256": "8d3b9241c1201a23f63cf10c87d8266bb4c7de754b04d554719cbcab61fd5983",
+    "folder": "evaluation/baseline/bai_hat_nga_2_20261110_150727_104b15",
+    "status": "ok",
+    "seconds": 26.29
+  },
+  {
+    "file": "khuc_hat_nang_solvey.png",
+    "category": "scan",
+    "category_basis": "visual inference; source provenance not confirmed",
+    "split": "validation",
+    "sha256": "4904442c71717747cc21252c80f4da97b062dbe6d2565ed63bf5dfcca3553a95",
+    "folder": "evaluation/baseline/khuc_hat_nang_solvey_20261110_150754_98f52b",
+    "status": "ok",
+    "seconds": 74.87
+  },
+  {
+    "file": "test2.png",
+    "category": "clear_pdf",
+    "category_basis": "visual inference; source provenance not confirmed",
+    "split": "development",
+    "sha256": "9c3053428ba8bd6f758d608590a2be5a532b2a95c1f040a79dbb015d2261788e",
+    "folder": "evaluation/baseline/test2_20261110_150909_c71b27",
+    "status": "ok",
+    "seconds": 14.17
+  },
+  {
+    "file": "test4.png",
+    "category": "photo",
+    "category_basis": "visual inference; source provenance not confirmed",
+    "split": "development",
+    "sha256": "565ed69429a482351f8752b0846ec5e7af15cd7e5b6a251af2c69d02091eae7e",
+    "folder": "evaluation/baseline/test4_20261110_150923_7ecae7",
+    "status": "ok",
+    "seconds": 43.18
+  },
+  {
+    "file": "test3.png",
+    "category": "clear_pdf",
+    "category_basis": "visual inference; source provenance not confirmed",
+    "split": "holdout",
+    "sha256": "202409571593ceb427be0aa420bfbf452a4b68c1b33e6fdf7307be65b8ecd6f8",
+    "folder": "evaluation/baseline/test3_20261110_151006_6b9c65",
+    "status": "ok",
+    "seconds": 43.41
+  }
+]

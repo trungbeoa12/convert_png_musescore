@@ -1,0 +1,16 @@
+{
+  "retained_files": 60,
+  "retained_bytes": 7177083,
+  "removed": [
+    "evaluation/ (retained source samples, compact evidence, logs and two OMR projects)",
+    "tools/Audiveris-5.11.0-macosx-x86_64.dmg",
+    "tools/tessdata/ (obsolete LSTM-only OCR data)",
+    "Python caches and .DS_Store"
+  ],
+  "kept_local": [
+    ".venv/",
+    "tools/Audiveris.app/",
+    "tools/tessdata_legacy/",
+    "output/ (two recent user runs)"
+  ]
+}

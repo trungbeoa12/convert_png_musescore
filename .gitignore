@@ -1,0 +1,25 @@
+# Local environments and Python cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated conversions, local applications and OCR models
+/output/
+/tools/*
+!/tools/README.md
+*.autosave
+*.dmg
+
+# Editor/OS files and local secrets
+.DS_Store
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+*.pem
+*.key

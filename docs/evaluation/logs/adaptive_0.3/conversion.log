@@ -1,0 +1,124 @@
+
+COMMAND: ['${PROJECT_ROOT}/tools/Audiveris.app/Contents/MacOS/Audiveris', '-batch', '-transcribe', '-export', '-save', '-constant', 'org.audiveris.omr.image.AdaptiveDescriptor.stdDevCoeff=0.3', '-output', '${PROJECT_ROOT}/evaluation/investigation/adaptive_0.3/omr', '--', '${PROJECT_ROOT}/evaluation/investigation/adaptive_0.3/input.png']
+INFO  []                      Main 259  | Running in batch mode
+INFO  []                 Languages 138  | Installed OCR languages: eng
+INFO  []             AliasPatterns 146  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 194  | Submitting 1 task(s) in sequence:
+    Input "${PROJECT_ROOT}/evaluation/investigation/adaptive_0.3/input.png"
+
+COMMAND: ['${PROJECT_ROOT}/tools/Audiveris.app/Contents/MacOS/Audiveris', '-batch', '-transcribe', '-export', '-save', '-constant', 'org.audiveris.omr.image.AdaptiveDescriptor.stdDevCoeff=0.3', '-output', '${PROJECT_ROOT}/evaluation/investigation/adaptive_0.3/omr', '--', '${PROJECT_ROOT}/evaluation/investigation/adaptive_0.3/input.png']
+INFO  []                      Main 259  | Running in batch mode
+INFO  []                 Languages 138  | Installed OCR languages: eng
+INFO  []             AliasPatterns 146  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 194  | Submitting 1 task(s) in sequence:
+    Input "${PROJECT_ROOT}/evaluation/investigation/adaptive_0.3/input.png"
+INFO  [input]                      Book 560  | 1 sheet in ${PROJECT_ROOT}/evaluation/investigation/adaptive_0.3/input.png
+INFO  []                      Book 2565 | Stored /book.xml
+INFO  []                      Book 2525 | Book stored as ${PROJECT_ROOT}/evaluation/investigation/adaptive_0.3/omr/input.omr
+INFO  []                      Book 1929 | Book reaching PAGE on sheets:[#1]
+INFO  [input]            StepMonitoring 98   | LOAD
+INFO  [input]                 SheetStub 1278 | Loaded image #1 3636x1968 from ${PROJECT_ROOT}/evaluation/investigation/adaptive_0.3/input.png
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                DataHolder 348  | Stored /sheet#1/GRAY.png
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | BINARY
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                DataHolder 256  | Removed /sheet#1/GRAY.png
+INFO  [input]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | SCALE
+INFO  [input]              ScaleBuilder 254  | Beam  guessed height: 21 -- 0.25 of [17..35] range
+INFO  [input]              ScaleBuilder 271  | Beam measured height: 18 -- 0.06 of [17..35] range at 113% of needed quorum
+INFO  [input]              ScaleBuilder 401  | Normalized black jitter: 10.53 %
+INFO  [input]                 ScaleStep 65   | Scale{ interline(36,38,41) line(7,9,11) beam(18)}
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | GRID
+INFO  [input]            LinesRetriever 1508 | Global slope: -0.01237
+INFO  [input]         ClustersRetriever 326  | Retrieved raw line clusters: 4 of sizes [5] with interline(36,38,41)
+INFO  [input]                 PeakGraph 310  | Systems: #1[1] #2[2] #3[3] #4[4]
+INFO  [input]             SystemManager 134  | Indentation detected for system #1
+INFO  [input]             SystemManager 800  | 1 part along 4 systems
+INFO  [input]                      Book 543  | Created scores: [{Score 1}]
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | HEADERS
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | STEM_SEEDS
+INFO  [input]                StemScaler 143  | No stem peak found, computing defaults
+INFO  [input]             StemSeedsStep 86   | stem(9 max:11)
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | BEAMS
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                DataHolder 348  | Stored /sheet#1/HEAD_SPOTS.png
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | LEDGERS
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | HEADS
+INFO  [input]             HeadSeedTally 235  | Scale information: HeadSeeds{}
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                DataHolder 256  | Removed /sheet#1/HEAD_SPOTS.png
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | STEMS
+INFO  [input]                BeamLinker 1729 | Not linking shorter BeamInter#844{(0.423/0.753) BEAM}
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | REDUCTION
+INFO  [input]            BeamGroupInter 1123 | Separating beams BeamHookInter#831{(0.592/0.879) BEAM_HOOK} and BeamInter#823{(0.680/0.931) BEAM}
+INFO  [input]             ReductionStep 105  | Stems free length median value: 126 pixels, 3.3 interlines
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | CUE_BEAMS
+INFO  [input]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | TEXTS
+Estimating resolution as 509
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | MEASURES
+INFO  [input]                      Page 307  | 23 raw measures: [5 in system#1, 6 in system#2, 6 in system#3, 6 in system#4]
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | CHORDS
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | CURVES
+INFO  [input]             CurvesBuilder 532  | Curve: SlurInfo{#5364[1590,877][1661,876] dist:2.46} Too many rookies: 53, giving up!
+INFO  [input]             CurvesBuilder 532  | Curve: SlurInfo{#15856[1858,725][1884,724] dist:1.02} Too many rookies: 56, giving up!
+INFO  [input]             CurvesBuilder 532  | Curve: SlurInfo{#16478[2303,793][2329,793] dist:1.72} Too many rookies: 56, giving up!
+INFO  [input]             CurvesBuilder 532  | Curve: SlurInfo{#18618[1468,1743][1491,1743] dist:3.28} Too many rookies: 52, giving up!
+INFO  [input]             CurvesBuilder 532  | Curve: SlurInfo{#20694[836,1749][857,1748] dist:3.92} Too many rookies: 60, giving up!
+INFO  [input]             CurvesBuilder 532  | Curve: SlurInfo{#22248[2715,789][2735,789] dist:1.51} Too many rookies: 50, giving up!
+INFO  [input]              SlursBuilder 240  | Slurs: 2
+INFO  [input]           SegmentsBuilder 155  | Segments: 1
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | SYMBOLS
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | LINKS
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | RHYTHMS
+INFO  [input]               StackRhythm 224  | S1 MeasureStack#1 no correct rhythm
+INFO  [input]                     Voice 257  | Measure{#6} Voice{#1 excess:1/8} too long
+INFO  [input]               StackRhythm 224  | S2 MeasureStack#6 no correct rhythm
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]            StepMonitoring 98   | PAGE
+INFO  [input]                     Voice 257  | Measure{#6} Voice{#1 excess:1/8} too long
+INFO  [input]                      Book 2565 | Stored /book.xml
+INFO  [input]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [input]                 SheetStub 1655 | Sheet disposed
+INFO  [input]                      Book 2050 | End of Stub#1
+INFO  [input]                      Book 2057 | End of Book{input}
+WARN  [input]        AbstractChordInter 1229 | HeadChordInter#1894{(0.839/0.839) staff:1 dur:1/8} Computing beam group times with first chord not set
+INFO  [input]        AbstractChordInter 635  | Measure{-NOSTACK-} No timeOffset for HeadChordInter#1894{(0.839/0.839) staff:1 dur:1/8}
+INFO  [input]                 SheetStub 1000 | Loaded /sheet#1/sheet#1.xml
+INFO  [input]           PartwiseBuilder 2707 | Exporting sheet(s): [#1]
+INFO  [input]             ScoreExporter 164  | Score input exported to ${PROJECT_ROOT}/evaluation/investigation/adaptive_0.3/omr/input.mxl
+INFO  [input]                     Score 181  | Closing {Score 1}

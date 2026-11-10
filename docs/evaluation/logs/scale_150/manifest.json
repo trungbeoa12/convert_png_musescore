@@ -1,0 +1,19 @@
+{
+  "command": [
+    "${PROJECT_ROOT}/tools/Audiveris.app/Contents/MacOS/Audiveris",
+    "-batch",
+    "-transcribe",
+    "-export",
+    "-save",
+    "-output",
+    "${PROJECT_ROOT}/evaluation/investigation/scale_150/omr",
+    "--",
+    "${PROJECT_ROOT}/evaluation/investigation/scale_150/input.png"
+  ],
+  "angle": null,
+  "size": [
+    1476,
+    2727
+  ],
+  "input_sha256": "6aea153913240ffccb1459067eab173bdb83e36a31ed073ec2f2428063e58e0b"
+}

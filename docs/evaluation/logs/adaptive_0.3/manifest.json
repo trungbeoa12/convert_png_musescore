@@ -1,0 +1,21 @@
+{
+  "command": [
+    "${PROJECT_ROOT}/tools/Audiveris.app/Contents/MacOS/Audiveris",
+    "-batch",
+    "-transcribe",
+    "-export",
+    "-save",
+    "-constant",
+    "org.audiveris.omr.image.AdaptiveDescriptor.stdDevCoeff=0.3",
+    "-output",
+    "${PROJECT_ROOT}/evaluation/investigation/adaptive_0.3/omr",
+    "--",
+    "${PROJECT_ROOT}/evaluation/investigation/adaptive_0.3/input.png"
+  ],
+  "angle": null,
+  "size": [
+    1968,
+    3636
+  ],
+  "input_sha256": "8dd98a6c26365b65027a4670800309d494fcb650c167a21563623611c54b417a"
+}

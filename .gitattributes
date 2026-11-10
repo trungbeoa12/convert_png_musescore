@@ -1,0 +1,10 @@
+* text=auto
+*.png binary
+*.mxl binary
+*.mscz binary
+*.omr binary
+
+# Preserve generated MusicXML whitespace and keep evidence out of source diffs.
+*.musicxml -whitespace linguist-generated=true
+docs/evaluation/data/** linguist-generated=true
+docs/evaluation/logs/** linguist-generated=true

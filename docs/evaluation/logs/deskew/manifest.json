@@ -1,0 +1,19 @@
+{
+  "command": [
+    "${PROJECT_ROOT}/tools/Audiveris.app/Contents/MacOS/Audiveris",
+    "-batch",
+    "-transcribe",
+    "-export",
+    "-save",
+    "-output",
+    "${PROJECT_ROOT}/evaluation/investigation/deskew/omr",
+    "--",
+    "${PROJECT_ROOT}/evaluation/investigation/deskew/input.png"
+  ],
+  "angle": -0.5343492904238087,
+  "size": [
+    1968,
+    3636
+  ],
+  "input_sha256": "dcf11ebb83b3c0a2a5cff219af0f958c67fe31fd85abde1c7acd6772ef674e06"
+}
